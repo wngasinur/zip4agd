@@ -22,7 +22,7 @@ java -jar zip4agd.jar decompress <input folder> <output folder>
 Note : 
 - [compress] if output folder is specified, the UUID random output zip file is generated
 - [compress] if output file is specified, it will be used as output zip file name
-- [compress] The <max size in mb> should be lesser than JVM heap memory. The formula for -Xmx : 32mb + <max size in mb> * <number of threads> * 2
+- [compress] The [max size in mb] should be lesser than JVM heap memory. The formula for -Xmx : 32mb + [max size in mb] * [number of threads] * 2
 - [compress] The <number of threads> can not be greater than number of files/directories to be compressed.
 - [compress] When running in parallel, the number of compressed files generated tend to be higher than single thread operation
 
